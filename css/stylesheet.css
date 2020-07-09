@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.board_container {
+    width: 600px;
+    height: 600px;
+    border: medium solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+.box {
+    width: 13.9%;
+    height: 13.6%;
+    border: thin solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.closed {
+    background-color: grey;
+}
+
+.empty {
+    background-color: greenyellow;
+}
+
+.full {
+    background-color: green;
+}
+
+.clicked {
+    background-color: lightseagreen;
+}
